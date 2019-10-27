@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="container row pt-5 mx-auto">
+    <div class="section mx-auto">
+      <div class="rgb-color">
+
+        <div class="color-number row">
+          <span class="red">R</span>
+          <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="red-range">
+          </div>
+          <span id="red-value" class="value-square red">0</span>
+        </div>
+
+        <div class="color-number row">
+          <span class="green">G</span>
+          <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="green-range">
+          </div>
+          <span id="green-value" class="value-square green">0</span>
+        </div>
+
+        <div class="color-number row">
+          <span class="blue">B</span>
+          <div class="slide-container">
+            <input type="range" min="0" max="255" value="0" class="slider" id="blue-range">
+          </div>
+          <span id="blue-value" class="value-square blue">0</span>
+        </div>
+
+        <div>
+          <div id="hex-value">#000000</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+  <script src="/scripts/main.js"></script>
+</body>
+
+</html>
